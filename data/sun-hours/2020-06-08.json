@@ -1,0 +1,15 @@
+{
+  "results": {
+    "sunrise": "2020-06-08T01:13:39+00:00",
+    "sunset": "2020-06-08T20:35:44+00:00",
+    "solar_noon": "2020-06-08T10:54:42+00:00",
+    "day_length": 69725,
+    "civil_twilight_begin": "1970-01-01T00:00:01+00:00",
+    "civil_twilight_end": "1970-01-01T00:00:01+00:00",
+    "nautical_twilight_begin": "1970-01-01T00:00:01+00:00",
+    "nautical_twilight_end": "1970-01-01T00:00:01+00:00",
+    "astronomical_twilight_begin": "1970-01-01T00:00:01+00:00",
+    "astronomical_twilight_end": "1970-01-01T00:00:01+00:00"
+  },
+  "status": "OK"
+}

@@ -3,7 +3,7 @@ const _ = require('lodash')
 
 const numRows = Number(process.argv[3]) || 80
 const numCols = Number(process.argv[4]) || 100
-const invert = process.argv[5] ? true : false
+const invert = !!process.argv[5]
 
 const white = chalk.bgWhite(' ')
 const gray = chalk.bgGray(' ')
@@ -12,6 +12,7 @@ const yellow = chalk.bgYellow(' ')
 const blue = chalk.bgBlueBright(' ')
 
 const fn = process.argv[2]
+console.log(process.argv)
 
 function toRange(value, fromLower, fromUpper, toLower, toUpper) {
   return (
@@ -41,8 +42,8 @@ function wat2() {
       Math.random() *
         toRange(Math.sin((4 * i) / (numCols * numRows)), -1, 1, 0, 1) >
       col / numCols
-        ? white
-        : gray,
+        ? yellow // white
+        : blue, // gray,
   ]
   const stitches = _.range(0, numRows * numCols).map((i) =>
     pattern[i % pattern.length](Math.floor(i / numCols), i % numCols, i)
@@ -266,4 +267,17 @@ const generators = {
   '7': wat7,
 }
 
-console.log(generators[fn]())
+// console.log(generators[fn]())
+
+const readline = require('readline')
+readline.emitKeypressEvents(process.stdin)
+process.stdin.setRawMode(true)
+process.stdin.on('keypress', (str, key) => {
+  if (key.ctrl && key.name === 'c') {
+    process.exit()
+  }
+  if (Object.keys(generators).includes(key.name)) {
+    console.log(generators[key.name]())
+  }
+})
+console.log('Press any key...')

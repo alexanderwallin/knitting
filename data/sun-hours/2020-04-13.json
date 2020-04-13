@@ -1,0 +1,15 @@
+{
+  "results": {
+    "sunrise": "2020-04-13T03:35:36+00:00",
+    "sunset": "2020-04-13T18:15:53+00:00",
+    "solar_noon": "2020-04-13T10:55:44+00:00",
+    "day_length": 52817,
+    "civil_twilight_begin": "2020-04-13T02:46:26+00:00",
+    "civil_twilight_end": "2020-04-13T19:05:03+00:00",
+    "nautical_twilight_begin": "2020-04-13T01:39:14+00:00",
+    "nautical_twilight_end": "2020-04-13T20:12:15+00:00",
+    "astronomical_twilight_begin": "2020-04-12T23:49:24+00:00",
+    "astronomical_twilight_end": "2020-04-13T22:02:05+00:00"
+  },
+  "status": "OK"
+}

@@ -1,0 +1,15 @@
+{
+  "results": {
+    "sunrise": "2020-09-23T04:44:22+00:00",
+    "sunset": "2020-09-23T16:50:35+00:00",
+    "solar_noon": "2020-09-23T10:47:29+00:00",
+    "day_length": 43573,
+    "civil_twilight_begin": "2020-09-23T04:00:36+00:00",
+    "civil_twilight_end": "2020-09-23T17:34:21+00:00",
+    "nautical_twilight_begin": "2020-09-23T03:07:45+00:00",
+    "nautical_twilight_end": "2020-09-23T18:27:12+00:00",
+    "astronomical_twilight_begin": "2020-09-23T02:09:46+00:00",
+    "astronomical_twilight_end": "2020-09-23T19:25:11+00:00"
+  },
+  "status": "OK"
+}

@@ -1,0 +1,15 @@
+{
+  "results": {
+    "sunrise": "2020-07-28T02:15:58+00:00",
+    "sunset": "2020-07-28T19:47:55+00:00",
+    "solar_noon": "2020-07-28T11:01:56+00:00",
+    "day_length": 63117,
+    "civil_twilight_begin": "2020-07-28T01:03:26+00:00",
+    "civil_twilight_end": "2020-07-28T21:00:27+00:00",
+    "nautical_twilight_begin": "1970-01-01T00:00:01+00:00",
+    "nautical_twilight_end": "1970-01-01T00:00:01+00:00",
+    "astronomical_twilight_begin": "1970-01-01T00:00:01+00:00",
+    "astronomical_twilight_end": "1970-01-01T00:00:01+00:00"
+  },
+  "status": "OK"
+}

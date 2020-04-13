@@ -1,0 +1,15 @@
+{
+  "results": {
+    "sunrise": "2020-01-15T07:57:20+00:00",
+    "sunset": "2020-01-15T14:12:19+00:00",
+    "solar_noon": "2020-01-15T11:04:50+00:00",
+    "day_length": 22499,
+    "civil_twilight_begin": "2020-01-15T06:59:46+00:00",
+    "civil_twilight_end": "2020-01-15T15:09:54+00:00",
+    "nautical_twilight_begin": "2020-01-15T06:01:57+00:00",
+    "nautical_twilight_end": "2020-01-15T16:07:43+00:00",
+    "astronomical_twilight_begin": "2020-01-15T05:08:54+00:00",
+    "astronomical_twilight_end": "2020-01-15T17:00:46+00:00"
+  },
+  "status": "OK"
+}
