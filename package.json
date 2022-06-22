@@ -6,7 +6,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "date-fns": "^2.12.0",
-    "got": "^10.7.0",
+    "got": "^11.8.5",
     "lodash": "^4.17.15",
     "nodemon": "^2.0.3"
   },
